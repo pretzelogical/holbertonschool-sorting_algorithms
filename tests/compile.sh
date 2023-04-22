@@ -5,10 +5,13 @@
 test="$1.c"
 confirmSpeak="Compiling test $test"
 
-echo "$1"
+
 case $1 in
 	0)	echo "$confirmSpeak"
 		gcc "$test" ../0-bubble_sort.c ../print.c -o "$1.out"
+		;;
+	1) 	echo "$confirmSpeak"
+		gcc "$test" ../1-insertion_sort_list.c ../print.c -o "$1.out"
 		;;
 	*) echo "$1 INCORRECT NOW SELF DESTRUCTING"
 		;;
