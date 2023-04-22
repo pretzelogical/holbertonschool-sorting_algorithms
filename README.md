@@ -6,3 +6,6 @@ Bubble sort is one of the simplest sorting algorithms which in it's most basic f
 
 ## Insertion sort
 Insertion sort iterates over elements in the list building a "sorted" and "unsorted" area of the list. Each iteration compares the input value to all the values currently in the sorted side and places the first one to match the criteria there.
+
+## Selection sort
+%tba%
