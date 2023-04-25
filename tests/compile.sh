@@ -15,6 +15,9 @@ case $1 in
 	2)	echo "$confirmSpeak"
 		gcc "$test" ../2-selection_sort.c ../print.c -o "$1.out"
 		;;
+	3)	echo "$confirmSpeak"
+		gcc "$test" ../3-quick_sort.c ../print.c -o "$1.out"
+		;;
 	*) echo "$1 INCORRECT NOW SELF DESTRUCTING"
 		;;
 esac
